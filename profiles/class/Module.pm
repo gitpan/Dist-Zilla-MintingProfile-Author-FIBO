@@ -1,1 +1,11 @@
-this is a class
+package {{$name}};
+use Moose;
+use MooseX::StrictConstructor;
+
+use Try::Tiny;
+
+
+__PACKAGE__->meta->make_immutable;
+
+1;
+

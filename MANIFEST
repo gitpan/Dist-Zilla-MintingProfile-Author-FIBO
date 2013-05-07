@@ -5,8 +5,15 @@ Makefile.PL
 README
 dist.ini
 lib/Dist/Zilla/MintingProfile/Author/FIBO.pm
+profiles/bundle/Module.pm
+profiles/bundle/plugins.ini
+profiles/bundle/profile.ini
 profiles/class/Module.pm
 profiles/class/profile.ini
 profiles/distro/Module.pm
 profiles/distro/plugins.ini
 profiles/distro/profile.ini
+profiles/minter/Module.pm
+profiles/minter/profile.ini
+profiles/role/Module.pm
+profiles/role/profile.ini

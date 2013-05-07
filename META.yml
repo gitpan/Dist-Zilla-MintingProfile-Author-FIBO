@@ -1,5 +1,5 @@
 ---
-abstract: 'minting profiles for FIBO[nacci]'
+abstract: "minting profiles for FIBO[nacci]\r"
 author:
   - 'G. Casati <fibo@cpan.org>'
 build_requires: {}
@@ -13,4 +13,4 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dist-Zilla-MintingProfile-Author-FIBO
-version: 0.001
+version: 20130507

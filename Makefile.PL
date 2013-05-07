@@ -11,7 +11,7 @@ install_share module => "Dist::Zilla::MintingProfile::Author::FIBO", "profiles";
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "minting profiles for FIBO[nacci]",
+  "ABSTRACT" => "minting profiles for FIBO[nacci]\r",
   "AUTHOR" => "G. Casati <fibo\@cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Dist::Zilla::MintingProfile::Author::FIBO",
   "PREREQ_PM" => {},
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => 20130507,
   "test" => {
     "TESTS" => ""
   }
