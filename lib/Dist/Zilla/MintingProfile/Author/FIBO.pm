@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Dist::Zilla::MintingProfile::Author::FIBO;
 {
-  $Dist::Zilla::MintingProfile::Author::FIBO::VERSION = '20130507';
+  $Dist::Zilla::MintingProfile::Author::FIBO::VERSION = '20130523';
 }
 # ABSTRACT: minting profiles for FIBO[nacci]
 use Moose;
