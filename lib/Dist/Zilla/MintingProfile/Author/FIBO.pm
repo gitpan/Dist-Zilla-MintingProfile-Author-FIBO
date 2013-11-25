@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Dist::Zilla::MintingProfile::Author::FIBO;
 {
-  $Dist::Zilla::MintingProfile::Author::FIBO::VERSION = '20130627';
+  $Dist::Zilla::MintingProfile::Author::FIBO::VERSION = '20131125';
 }
 # ABSTRACT: minting profiles for FIBO[nacci]
 use Moose;
@@ -34,11 +34,11 @@ Add a role.
 
 Add a minter.
 
-    dzil add -P Author::FIBO -p minter Dist::Zilla::MintingProfile::Foo
+    dzil new -P Author::FIBO -p minter Dist::Zilla::MintingProfile::Foo
 
-Create a add bundle.
+Create a new bundle.
 
-    dzil add -P Author::FIBO -p bundle Task::Foo
+    dzil new -P Author::FIBO -p bundle Task::Foo
 
     cd Task-Foo
     vim lib/Task/Foo.pm # and edit ABSTRACT
